@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eeb9f564b265d44a8fd3370b7b76f78, type: 3}
+  m_Name: pan
+  m_EditorClassIdentifier: 
+  objectName: "\uD504\uB77C\uC774\uD32C"
+  duration: 3
+  price: 0
+  prefab: {fileID: 8244769428933039115, guid: 8a31642cca6b0a643958e6262906022b, type: 3}
+  Handprefab: {fileID: 0}
+  type: 1
+  objType: 2

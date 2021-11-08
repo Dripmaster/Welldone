@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eeb9f564b265d44a8fd3370b7b76f78, type: 3}
+  m_Name: MEAT
+  m_EditorClassIdentifier: 
+  objectName: "\uACE0\uAE30"
+  duration: 0
+  price: 2200
+  prefab: {fileID: 6234433864850189991, guid: e8ee8fde4063cc9458735a400efc6c9b, type: 3}
+  Handprefab: {fileID: 1454093020623460288, guid: 24f4b0dc9fd84a944aa91eb2ba1c23f8, type: 3}
+  type: 2
+  objType: 8

@@ -66,7 +66,7 @@ namespace Com.CrossLab.WellDone
             do
             {
                 PhotonView photonView = PhotonView.Get(this);
-                photonView.RPC("AddOrder", RpcTarget.All, Random.Range(0, 2), Random.Range(1, 4), Random.Range(7, 13), Random.Range(1, 4), Random.Range(7, 13), Random.Range(4, 7), Random.Range(9000, 15000));
+                photonView.RPC("AddOrder", RpcTarget.All, Random.Range(0, 2), Random.Range(1, 3), Random.Range(7, 9), Random.Range(1, 3), Random.Range(7, 9), Random.Range(4, 7), Random.Range(9000, 15000));
 
                 while (cookOrders.Count >= 4)
                     {
@@ -146,21 +146,9 @@ namespace Com.CrossLab.WellDone
         public CookOrder(int a, int b , int c, int d,int e, int f, int g)
         {
             CookedObjects = new List<CookedObject>();
-            if (a == 0)
-            {
-                CookedObjects.Add(new CookedObject(1, 7));
-                finalType = PlacementType.DISH;
-            }
-            else
-            {
+           
                 CookedObjects.Add(new CookedObject(b, c));
-                CookedObjects.Add(new CookedObject(d, e));
-                if (CookedObjects[0].ingredient == CookedObjects[1].ingredient && CookedObjects[0].tool == CookedObjects[1].tool)
-                {
-                    CookedObjects.Remove(CookedObjects[1]);
-                }
                 finalType = PlacementType.DISH;
-            }
 
             
             price = g;
